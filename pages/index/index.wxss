@@ -1,0 +1,62 @@
+.yiyan{
+  /* background-color: lightblue; */
+  /*弹性模型*/
+  display:flex;
+  /*垂直方向 列方向 排布*/
+  flex-direction:column;
+  /*居中*/
+  align-items:center;
+  /*宽度*/
+  width: 700rpx;
+  text-align: center;
+  margin: 40rpx;
+}
+.yiyan-hitokoto{
+  /* background-color: darkgreen; */
+  width: 600rpx;
+  height: 40vh;
+}
+.yiyan-hitokoto-text{
+  font-size: 45rpx;
+  font-weight:bold;
+  /* background-color: greenyellow; */
+}
+.yiyan-from{
+  /* background-color: darkkhaki; */
+  font-size: 35rpx;
+  font-weight:bold;
+}
+.kuzan{
+  color: grey;
+  position: fixed;
+  bottom: 0;
+}
+
+.button-area{
+  /* background-color: lightcoral; */
+  display: flex;
+  margin: 26rpx;
+}
+.button-area-note{
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  height: 70rpx;
+  border: 2rpx solid #353535;
+  border-radius: 10rpx;
+  align-items: center;
+}
+.button-area-next {
+  width: 360rpx;
+}
+
+.button-area-get {
+  width: 100rpx;
+}
+
+.button-area-text {
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 32rpx;
+  color: #585858;
+}  

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view style="padding: 25rpx;">
+  <view class="about">
+    <view>
+      <image src="/images/icon/elipsis.png" bindtap="inAbout"></image>
+    </view>
+    <view>
+      <image src="/images/icon/comment.png" bindtap="inMsg"></image>
+    </view>
+  </view>
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <!-- <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> -->
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <!-- <view class="user-func" data-target="user" bindtap="navTo">
+    <text>图片列表</text>
+    <text>→</text>
+  </view> -->
+  <view class="user-func" data-target="collect" bindtap="navTo">
+    <text>短句列表</text>
+    <text>→</text>
+  </view>
+</view>

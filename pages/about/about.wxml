@@ -1,0 +1,8 @@
+<view class="container">
+  <image class="user-avatar" src="/images/photo/dev.jpeg"></image>
+  <text class="name">MiniLeft  v1.0.0</text>
+  <text class="name">豆瓣：@已注销</text>
+  <text class="name">GitHub：@wongkuzan</text>
+  <text class="name">个人主页: www.wongkuzan.cn</text>
+  <!-- <text class="copy">本软件已开源：https://github.com/airingursb/miemie</text> -->
+</view>

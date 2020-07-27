@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="yiyan" >
+      <view class="yiyan-hitokoto">
+        <text class="yiyan-hitokoto-text">{{hitokoto}}</text>
+      </view>
+      <view class="yiyan-from">
+        <text >From -- {{from}}</text>
+      </view>
+  </view>
+  <view class="button-area">
+    <view class="button-area-note button-area-get" catchtap="f1" >
+      <text wx:if='{{!getStatus}}' class="button-area-text" >☆</text>
+      <text wx:else class="button-area-text" >★</text>
+    </view>
+    <view class="button-area-note button-area-next" catchtap="getHitokotoData">
+      <text class="button-area-text" >下一条</text>
+    </view>
+  </view>
+  
+  <!-- <view class="kuzan">
+    <text>wongkuzan.cn</text>
+  </view> -->
+</view>

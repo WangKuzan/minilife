@@ -1,0 +1,26 @@
+
+.tainer{
+  padding: 10px 20px;
+  align-content: center;
+}
+
+.text-content{
+  padding: 10px;
+  align-content: center;
+  border-bottom: 1rpx solid #F5F5F5;
+  background-color: #FFFFFF
+}
+.tips{
+  /* align-content: center; */
+  display:flex;
+  /*垂直方向 列方向 排布*/
+  flex-direction:column;
+  /*居中*/
+  align-items:center;
+}
+.tips text{
+  margin-bottom: 20rpx;
+  font-family: Songti SC;
+  font-size: 35srpx;
+  color: #707070;
+}

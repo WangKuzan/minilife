@@ -1,0 +1,12 @@
+<view class='tainer'>
+  <block wx:for="{{HitokotoData}}" wx:key="index">
+    <view class='text-content'>{{item.hitokoto}} --from {{item.from}}</view> 
+  </block>
+  <!-- <text class="isdisplay" wx:if='{{isdisplay}}'>没有数据了</text> -->
+  <view class="tips" hidden='{{hasmoreData}}'>
+　　　<text>暂无更多数据</text>
+　</view>
+　<view class="tips" hidden='{{hiddenloading}}'>
+　　　<text>正在加载...</text>
+　</view>
+</view>

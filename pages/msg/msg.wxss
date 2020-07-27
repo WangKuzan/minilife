@@ -1,0 +1,28 @@
+
+text {
+  display: flex;
+  padding: 5rpx 0;
+  font-size: 35rpx;
+}
+
+.msg-title {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 5px;
+}
+
+.msg-title input{
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+ }
+ .msg-text{
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+  padding: 5px;
+ }
+ .msg-text textarea{
+  border: 1px solid #ccc;
+  width: auto;
+  border-radius: 5px;
+ }

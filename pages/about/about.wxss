@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.name {
+  margin-top: 28rpx;
+  font-family: Songti SC;
+  font-size: 32rpx;
+  color: #585858;
+}
+
+.user-avatar {
+  margin-top: 40rpx;
+  width: 268rpx;
+  height: 268rpx;
+  border-radius: 50%;
+}
+
+.copy {
+  margin-top: 80rpx;
+  font-family: Songti SC;
+  font-size: 24rpx;
+  color: #585858;
+}

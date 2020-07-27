@@ -1,0 +1,17 @@
+<view>
+  <view class="section">
+    <text>头像</text>
+    <!-- <image src="{{ avatar }}" bindtap="changeAvatar" /> -->
+    <image src="{{ avatar }}" />
+  </view>
+  <view class="section">
+    <text>用户名</text>
+    <!-- <input value="{{ name }}" bindblur="blurName" bindconfirm="changeName" auto-focus /> -->
+    <input value="{{ name }}"  auto-focus />
+  </view>
+  <view class="section">
+    <text>城市</text>
+    <!-- <input value="{{ name }}" bindblur="blurName" bindconfirm="changeName" auto-focus /> -->
+    <input value="{{ city }}"  auto-focus />
+  </view>
+</view>

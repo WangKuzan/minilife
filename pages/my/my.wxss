@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 228rpx;
+  height: 228rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  /* border: 1rpx solid rgb(0, 0, 0); */
+}
+
+.user-func {
+  display: flex;
+  /* color: #9B9B9B; */
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid rgb(0, 0, 0);
+  font-size: 36rpx;
+}
+.user-func text:first-child {
+  flex: 1;
+}
+.user-func text:last-child {
+  width: 50rpx;
+}
+.about{
+  /* background-color: lightcoral; */
+  display: flex;
+  padding: 10rpx 0;
+  /* flex-direction: column-reverse; */
+  justify-content: space-between;
+}
+.about image{
+  width: 48rpx;
+  height: 48rpx;
+}

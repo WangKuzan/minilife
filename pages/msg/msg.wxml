@@ -1,0 +1,13 @@
+<view class="msg">
+  <view class="msg-title">
+    <text>标题:</text>
+    <input type="text" maxlength="10" bindinput="changeInputTitle" value="{{title}}"> </input>
+  </view>
+  <view class="msg-text">
+    <text>内容:</text>
+    <textarea type="text" maxlength="340"   bindinput="changeInputMsg" value="{{msg}}" ></textarea>
+  </view>
+  <view class="msg-button" bindtap="addMsg">
+    <button>发送</button>
+  </view>
+</view>

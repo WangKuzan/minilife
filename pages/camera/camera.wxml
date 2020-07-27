@@ -1,0 +1,26 @@
+<view class="pageContainer">
+  <!-- <image class="about-banner"
+  src="https://img3.doubanio.com/view/photo/raw/public/p2562321331.jpg">
+  </image> -->
+  <!-- <view class='unsplash'>
+    <image class="photo" bindtap="preview" bindlongpress='longPress'  src="{{unsplash.small}}" ></image>
+    <text class="copy">unsplash.com</text>
+    <text> 拍摄者 {{unsplash.userName}}</text>
+    <text wx:if='{{!unsplash.instagramUsername}}'>instagram :  {{unsplash.instagramUsername}}</text> 
+  </view> -->
+  <view wx:for="{{unsplashList}}" wx:key="index">
+    <image class="photo" data-full-url='{{item.full}}'  bindtap="preview"  bindlongpress='longPress'
+    mode='widthFix' binderror="errorFunction" src="{{item.small}}">
+    </image>
+  </view>
+  <!-- <view class="button-area">
+    <view class="button-area-note button-area-get" catchtap="f1" >
+      <text wx:if='{{!getStatus}}' class="button-area-text" >☆</text>
+      <text wx:else class="button-area-text" >★</text>
+    </view>
+  </view> -->
+  <view class="tips" hidden='{{hasmoreData}}'>
+    <text class="copy">unsplash.com</text>
+　  <text>暂无更多数据</text>
+　</view>
+</view>
